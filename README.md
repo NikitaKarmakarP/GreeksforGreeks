@@ -6,3 +6,4 @@ Stay updated and conected with me.
 1. Kth Distance
 2. subarray-with-given-sum
 3. missing-number-in-array
+4. kadanes-algorithm
