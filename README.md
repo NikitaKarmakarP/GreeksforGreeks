@@ -1,5 +1,5 @@
 *This is my Greeksfor Greeks Repository*
-Here I uploat all my dsa problem which I solved in GreeksForGreeks
+Here I upload all my dsa problem which I solved in GreeksForGreeks
 Stay updated and conected with me
 
 Here a list which problem I solved
