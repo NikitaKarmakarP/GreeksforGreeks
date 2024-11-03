@@ -9,6 +9,7 @@ Stay updated and conected with me.
 4. minimum-number-of-jumps
 5. minimize-the-heights
 6. a-difference-of-values-and-indexes
+7. leaders-in-an-array
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
