@@ -1,0 +1,14 @@
+class Solution {
+    static ArrayList<Integer> leaders(int arr[]) {
+        ArrayList<Integer> al = new ArrayList<>();
+        int leader = 0;
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (leader <= arr[i]) {
+                leader = arr[i];
+                al.add(arr[i]);
+            }
+        }
+       Collections.sort(al, Collections.reverseOrder());
+        return al;
+    }
+}
