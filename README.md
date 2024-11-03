@@ -7,6 +7,7 @@ Stay updated and conected with me.
 2. missing-number-in-array
 3. kadanes-algorithm
 4. minimum-number-of-jumps
+5. minimize-the-heights
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
