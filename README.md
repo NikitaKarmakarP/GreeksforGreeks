@@ -8,6 +8,7 @@ Stay updated and conected with me.
 3. kadanes-algorithm
 4. minimum-number-of-jumps
 5. minimize-the-heights
+6. a-difference-of-values-and-indexes
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
