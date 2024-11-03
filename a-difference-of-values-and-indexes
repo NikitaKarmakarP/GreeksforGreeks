@@ -1,0 +1,26 @@
+int maxA = INT_MIN, minA = INT_MAX;
+        int maxB = INT_MIN, minB = INT_MAX;
+
+        for (int i = 0; i < n; i++) {
+            int A = arr[i] + i;
+            int B = arr[i] - i;
+
+            maxA = std::max(maxA, A);
+            minA = std::min(minA, A);
+            maxB = std::max(maxB, B);
+            minB = std::min(minB, B);
+        }
+
+        return std::max(maxA - minA, maxB - minB);
+    }
+};
+
+int main() {
+    Solution solution;
+    std::vector<int> arr1 = {1, 3, -1};
+    std::cout << "Maximum difference: " << solution.maxDistance(arr1, arr1.size()) << std::endl;  // Output: 5
+
+    std::vector<int> arr2 = {5, 9, 2, 6};
+    std::cout << "Maximum difference: " << solution.maxDistance(arr2, arr2.size()) << std::endl;  // Output: 8
+
+    return 0;
