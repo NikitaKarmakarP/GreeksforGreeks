@@ -10,6 +10,7 @@ Stay updated and conected with me.
 5. minimize-the-heights
 6. a-difference-of-values-and-indexes
 7. leaders-in-an-array
+8. remove-loop-in-linked-list
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
