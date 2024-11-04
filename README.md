@@ -12,6 +12,7 @@ Stay updated and conected with me.
 7. leaders-in-an-array
 8. remove-loop-in-linked-list
 9. intersection-point-in-y-shapped-linked-lists
+10. second-largest
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
