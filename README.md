@@ -16,6 +16,7 @@ Stay updated and conected with me.
 11. find-duplicates-in-an-array
 12. majority-element
 13. sort-an-array-of-0s-1s-and-2s
+14. rotate-by-90-degree
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
