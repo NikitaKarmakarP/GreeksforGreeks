@@ -16,11 +16,11 @@ Stay updated and conected with me.
 11. find-duplicates-in-an-array
 12. majority-element
 13. sort-an-array-of-0s-1s-and-2s
-14. rotate-by-90-degree
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
 2. Kth Distance(2nd nov)
 3. linked-list-length-even-or-odd(3rd nov)
 4. find-all-triplets-with-zero-sum(4th nov)
+5. rotate-by-90-degree(5th nov)
 
