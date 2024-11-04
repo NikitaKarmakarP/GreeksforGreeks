@@ -11,6 +11,7 @@ Stay updated and conected with me.
 6. a-difference-of-values-and-indexes
 7. leaders-in-an-array
 8. remove-loop-in-linked-list
+9. intersection-point-in-y-shapped-linked-lists
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
