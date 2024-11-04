@@ -15,4 +15,5 @@ Stay updated and conected with me.
 1. swap-and-maximize(1st nov)
 2. Kth Distance(2nd nov)
 3. linked-list-length-even-or-odd(3rd nov)
+4. find-all-triplets-with-zero-sum(4th nov)
 
