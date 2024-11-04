@@ -1,0 +1,20 @@
+class Intersect {
+    // Function to find intersection point in Y shaped Linked Lists.
+    int intersectPoint(Node head1, Node head2) {
+        
+        if (head1 == null || head2 == null) return -1;
+        
+        Node p1 = head1;
+        Node p2 = head2;
+
+        // Traverse both lists; when reaching the end, switch to the other list's head
+        while (p1 != p2) {
+            p1 = (p1 == null) ? head2 : p1.next;
+            p2 = (p2 == null) ? head1 : p2.next;
+        }
+
+        // Either both pointers meet at the intersection or both are null (no intersection)
+        return (p1 != null) ? p1.data : -1;
+    
+    }
+}
