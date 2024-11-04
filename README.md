@@ -14,6 +14,7 @@ Stay updated and conected with me.
 9. intersection-point-in-y-shapped-linked-lists
 10. second-largest
 11. find-duplicates-in-an-array
+12. majority-element
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
