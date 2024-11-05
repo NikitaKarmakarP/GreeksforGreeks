@@ -23,4 +23,5 @@ Stay updated and conected with me.
 3. linked-list-length-even-or-odd(3rd nov)
 4. find-all-triplets-with-zero-sum(4th nov)
 5. rotate-by-90-degree(5th nov)
+6. root-to-leaf-paths-sum(6th nov)
 
