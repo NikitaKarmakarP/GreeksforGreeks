@@ -1,0 +1,23 @@
+ return calculatePathSum(root, 0);
+    }
+
+private:
+    int calculatePathSum(Node* node, int currentSum) {
+        if (node == nullptr) {
+            return 0;
+        }
+
+        // Update the current path sum by incorporating the node's value
+        currentSum = currentSum * 10 + node->data;
+
+        // If this is a leaf node, return the current path sum
+        if (node->left == nullptr && node->right == nullptr) {
+            return currentSum;
+        }
+
+        // Recur for the left and right subtrees and sum their path values
+        int leftSum = calculatePathSum(node->left, currentSum);
+        int rightSum = calculatePathSum(node->right, currentSum);
+
+        return leftSum + rightSum;
+    }
