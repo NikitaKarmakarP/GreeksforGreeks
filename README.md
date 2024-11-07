@@ -17,6 +17,7 @@ Stay updated and conected with me.
 12. majority-element
 13. sort-an-array-of-0s-1s-and-2s
 14. inversion-of-array
+15. count-possible-triangles
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
