@@ -20,6 +20,7 @@ Stay updated and conected with me.
 15. count-possible-triangles
 16. triplet-sum-in-array
 17. Zero sum count
+18. kth-smallest-element
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
