@@ -24,4 +24,5 @@ Stay updated and conected with me.
 4. find-all-triplets-with-zero-sum(4th nov)
 5. rotate-by-90-degree(5th nov)
 6. root-to-leaf-paths-sum(6th nov)
+7. Split array in three equal sum subarrays(7th nov)
 
