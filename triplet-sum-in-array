@@ -1,0 +1,23 @@
+bool find3Numbers(int arr[], int n, int x) {
+        // Step 1: Sort the array
+        sort(arr, arr + n);
+        
+        // Step 2: Use two-pointer technique for each element
+        for (int i = 0; i < n - 2; i++) {
+            int left = i + 1;      // Start of the second element
+            int right = n - 1;     // Start of the third element
+            
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+                
+                if (sum == x) {
+                    return true;   // Found a triplet with the desired sum
+                } else if (sum < x) {
+                    left++;        // Increase sum by moving left pointer
+                } else {
+                    right--;       // Decrease sum by moving right pointer
+                }
+            }
+        }
+        
+        return false;
