@@ -18,6 +18,7 @@ Stay updated and conected with me.
 13. sort-an-array-of-0s-1s-and-2s
 14. inversion-of-array
 15. count-possible-triangles
+16. triplet-sum-in-array
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
