@@ -1,0 +1,22 @@
+int repeatCount = 1;
+        string repeatedString = s1;
+        
+        // Repeat s1 until it's longer than s2
+        while (repeatedString.size() < s2.size()) {
+            repeatedString += s1;
+            repeatCount++;
+        }
+        
+        // Check if s2 is a substring in the current repeatedString
+        if (repeatedString.find(s2) != string::npos) {
+            return repeatCount;
+        }
+        
+        // Check by adding one more repetition of s1
+        repeatedString += s1;
+        if (repeatedString.find(s2) != string::npos) {
+            return repeatCount + 1;
+        }
+        
+        // If s2 is still not a substring, return -1
+        return -1;
