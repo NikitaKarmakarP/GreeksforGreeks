@@ -21,6 +21,7 @@ Stay updated and conected with me.
 16. triplet-sum-in-array
 17. Zero sum count
 18. kth-smallest-element
+19. paranthesis checker
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
