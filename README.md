@@ -23,6 +23,7 @@ Stay updated and conected with me.
 18. kth-smallest-element
 19. paranthesis checker
 20. detect-cycle-in-an-undirected-graph
+21. Left View of Binary Tree
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
