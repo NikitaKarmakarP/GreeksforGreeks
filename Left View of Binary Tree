@@ -1,0 +1,44 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+// Definition for a binary tree node.
+struct Node {
+    int data;
+    Node* left;
+    Node* right;
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
+};
+
+class Solution {
+public:
+    vector<int> leftView(Node* root) {
+        vector<int> left_view;  // Result to store left view nodes
+        if (!root) return left_view;  // Return empty if tree is empty
+        
+        queue<Node*> q;
+        q.push(root);
+        
+        while (!q.empty()) {
+            int level_size = q.size();  // Number of nodes at current level
+            
+            // Traverse all nodes at the current level
+            for (int i = 0; i < level_size; ++i) {
+                Node* node = q.front();
+                q.pop();
+                
+                // Add the first node (leftmost node) of each level to the left view
+                if (i == 0) {
+                    left_view.push_back(node->data);
+                }
+                
+                // Enqueue left and right children
+                if (node->left) q.push(node->left);
+                if (node->right) q.push(node->right);
+            }
+        }
+        
+        return left_view;
+    }
+};
