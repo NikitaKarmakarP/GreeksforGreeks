@@ -22,6 +22,7 @@ Stay updated and conected with me.
 17. Zero sum count
 18. kth-smallest-element
 19. paranthesis checker
+20. detect-cycle-in-an-undirected-graph
 
 # Daily Challange
 1. swap-and-maximize(1st nov)
