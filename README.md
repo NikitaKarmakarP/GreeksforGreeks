@@ -34,4 +34,5 @@ Stay updated and conected with me.
 6. root-to-leaf-paths-sum(6th nov)
 7. Split array in three equal sum subarrays(7th nov)
 8. minimum-times-a-has-to-be-repeated-such-that-b-is-a-substring(8th nov)
+9. minimum-sum(9th nov)
 
