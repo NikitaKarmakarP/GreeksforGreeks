@@ -36,4 +36,5 @@ Stay updated and conected with me.
 8. minimum-times-a-has-to-be-repeated-such-that-b-is-a-substring(8th nov)
 9. minimum-sum(9th nov)
 10. 10.union-of-two-sorted-arrays-with-distinct-elements(10th nov)
+11. make-array-elements-unique(11th nov)
 
