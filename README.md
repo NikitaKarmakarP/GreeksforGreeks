@@ -41,3 +41,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 11. make-array-elements-unique(11th nov)
 12. attend-all-meetings(12th nov)
 13. intersection-point-in-y-shapped-linked-lists(13th nov)
+14. nearly-sorted(14th nov)
+
