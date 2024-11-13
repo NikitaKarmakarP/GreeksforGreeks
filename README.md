@@ -1,6 +1,8 @@
 # This is my Greeksfor Greeks Repository
 Here I upload all my dsa problem which I solved in GreeksForGreeks.
 Stay updated and conected with me.
+# This is my  GreeksforGreeks Profile
+https://www.geeksforgeeks.org/user/nikitakarozpn/
 
 # Here a list which problem I solved
 1. subarray-with-given-sum
