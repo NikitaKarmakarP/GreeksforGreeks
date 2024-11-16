@@ -42,4 +42,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 12. attend-all-meetings(12th nov)
 13. intersection-point-in-y-shapped-linked-lists(13th nov)
 14. nearly-sorted(14th nov)
+15. move-all-zeroes-to-end-of-array(16th nov)
 
