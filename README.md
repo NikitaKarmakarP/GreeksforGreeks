@@ -45,4 +45,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 15. second kargest(15th nov)
 16. move-all-zeroes-to-end-of-array(16th nov)
 17. Reverse an Array(17th nov)
+18. rotate-array-by-n-elements(18th nov)
 
