@@ -42,5 +42,7 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 12. attend-all-meetings(12th nov)
 13. intersection-point-in-y-shapped-linked-lists(13th nov)
 14. nearly-sorted(14th nov)
-15. move-all-zeroes-to-end-of-array(16th nov)
+15. second kargest(15th nov)
+16. move-all-zeroes-to-end-of-array(16th nov)
+17. Reverse an Array(17th nov)
 
