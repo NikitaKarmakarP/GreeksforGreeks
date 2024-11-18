@@ -46,4 +46,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 16. move-all-zeroes-to-end-of-array(16th nov)
 17. Reverse an Array(17th nov)
 18. rotate-array-by-n-elements(18th nov)
+19. next-permutation(19th nov)
 
