@@ -48,4 +48,4 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 18. rotate-array-by-n-elements(18th nov)
 19. next-permutation(19th nov)
 20. majority-vote(20th nov)
-21. take-k-of-each-character-from-left-and-right(21th nov)
+
