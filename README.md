@@ -49,4 +49,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 19. next-permutation(19th nov)
 20. majority-vote(20th nov)
 21. stock-buy-and-sell(21th nov)
+22. Stock Buy and Sell – Max one Transaction Allowed(22nd nov)
 
