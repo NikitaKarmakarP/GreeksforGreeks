@@ -51,4 +51,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 21. stock-buy-and-sell(21th nov)
 22. Stock Buy and Sell – Max one Transaction Allowed(22nd nov)
 23. Minimize the Heights(23rd nov)
+24. Kadane's Algorithm(24th nov)
 
