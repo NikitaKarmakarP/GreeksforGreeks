@@ -52,4 +52,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 22. Stock Buy and Sell – Max one Transaction Allowed(22nd nov)
 23. Minimize the Heights(23rd nov)
 24. Kadane's Algorithm(24th nov)
+25. Maximum Product Subarray(25th nov)
 
