@@ -1,0 +1,38 @@
+class Solution {
+  public:
+    // Function to find the smallest positive number missing from the array.
+    int missingNumber(vector<int> &arr) {
+        // Approach is to save boolean array of numbers size of maximum element
+        // iterate through array elements
+        // positive elements set the appropriate bool array to true
+        // last iterate through bool array, find the missing element
+        
+        // find maximum element
+        int mx = *max_element(arr.begin(), arr.end());
+        if(mx < 1)
+        {
+            return 1;
+        }
+        // boolean array to mark elements
+        bool found[mx] = { false };
+        // iterate through array element
+        for(int val : arr)
+        {
+            // mark positive elements at bool array
+            if(val > 0)
+            {
+                found[val-1] = true;
+            }
+        }
+        // iterate through boolean array, find missing element
+        for(int i=0; i<mx; i++)
+        {
+            if(!found[i])
+            {
+                return i+1;
+            }
+        }
+        // no missing element, use maximum + 1
+        return mx+1;
+    }
+};
