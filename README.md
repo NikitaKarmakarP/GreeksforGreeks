@@ -54,4 +54,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 24. Kadane's Algorithm(24th nov)
 25. Maximum Product Subarray(25th nov)
 26. Max Circular Subarray Sum(26th nov)
+27. Smallest Positive Missing Number(27th nov)
 
