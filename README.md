@@ -55,4 +55,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 25. Maximum Product Subarray(25th nov)
 26. Max Circular Subarray Sum(26th nov)
 27. Smallest Positive Missing Number(27th nov)
+28. Implement Atoi(28th nov)
 
