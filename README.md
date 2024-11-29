@@ -57,4 +57,5 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 27. Smallest Positive Missing Number(27th nov)
 28. Implement Atoi(28th nov)
 29. Add Binary Strings(29th nov)
+30. Anagram(30th nov)
 
