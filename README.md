@@ -28,6 +28,7 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 21. Left View of Binary Tree
 
 # Daily Challange
+# Novenber(2024)
 1. swap-and-maximize(1st nov)
 2. Kth Distance(2nd nov)
 3. linked-list-length-even-or-odd(3rd nov)
@@ -58,4 +59,7 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 28. Implement Atoi(28th nov)
 29. Add Binary Strings(29th nov)
 30. Anagram(30th nov)
+
+# December(2024)
+1.Non Repeating Character
 
