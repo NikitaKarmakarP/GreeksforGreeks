@@ -61,5 +61,8 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 30. Anagram(30th nov)
 
 # December(2024)
-1.Non Repeating Character
+1.Non Repeating Character(1st dec)
+2.Search Pattern (KMP-Algorithm)(2nd dec)
+
+
 
