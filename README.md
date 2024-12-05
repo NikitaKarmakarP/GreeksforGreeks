@@ -66,6 +66,7 @@ https://www.geeksforgeeks.org/user/nikitakarozpn/
 3. Min Chars to Add for Palindrome (3rd dec)
 4. Strings Rotations of Each Other (4th dec)
 5. Sort 0s, 1s and 2s (5th dec)
+6. Find H-Index (6th dec)
 
 
 
