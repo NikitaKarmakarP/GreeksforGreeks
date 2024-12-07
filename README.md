@@ -74,38 +74,36 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 
 # November 2024
 
-**Day**	       **Date**	        **Challenge Name**
-
-Day 1	       1st November	      Swap and Maximize
-Day 2	       2nd November	      Kth Distance
-Day 3	       3rd November	      Linked List Length Even or Odd
-Day 4	       4th November	      Find All Triplets with Zero Sum
-Day 5	       5th November	      Rotate by 90 Degrees
-Day 6	       6th November	      Root-to-Leaf Paths Sum
-Day 7	       7th November	      Split Array in Three Equal Sum Subarrays
-Day 8	       8th November	      Minimum Times A Has to Be Repeated Such That B is a Substring
-Day 9	       9th November	      Minimum Sum
-Day 10	     10th November	    Union of Two Sorted Arrays with Distinct Elements
-Day 11	     11th November	    Make Array Elements Unique
-Day 12	     12th November	    Attend All Meetings
-Day 13	     13th November	    Intersection Point in Y-Shaped Linked Lists
-Day 14	     14th November	    Nearly Sorted
-Day 15	     15th November	    Second Largest
-Day 16	     16th November	    Move All Zeroes to End of Array
-Day 17	     17th November	    Reverse an Array
-Day 18	     18th November	    Rotate Array by N Elements
-Day 19	     19th November	    Next Permutation
-Day 20	     20th November	    Majority Vote
-Day 21	     21st November	    Stock Buy and Sell
-Day 22	     22nd November	    Stock Buy and Sell – Max One Transaction Allowed
-Day 23	     23rd November	    Minimize the Heights
-Day 24	     24th November	    Kadane's Algorithm
-Day 25	     25th November	    Maximum Product Subarray
-Day 26	     26th November	    Max Circular Subarray Sum
-Day 27	     27th November	    Smallest Positive Missing Number
-Day 28	     28th November	    Implement Atoi
-Day 29	     29th November	    Add Binary Strings
-Day 30	     30th November	    Anagram
+1. swap-and-maximize(1st nov)
+2. Kth Distance(2nd nov)
+3. linked-list-length-even-or-odd(3rd nov)
+4. find-all-triplets-with-zero-sum(4th nov)
+5. rotate-by-90-degree(5th nov)
+6. root-to-leaf-paths-sum(6th nov)
+7. Split array in three equal sum subarrays(7th nov)
+8. minimum-times-a-has-to-be-repeated-such-that-b-is-a-substring(8th nov)
+9. minimum-sum(9th nov)
+10. 10.union-of-two-sorted-arrays-with-distinct-elements(10th nov)
+11. make-array-elements-unique(11th nov)
+12. attend-all-meetings(12th nov)
+13. intersection-point-in-y-shapped-linked-lists(13th nov)
+14. nearly-sorted(14th nov)
+15. second kargest(15th nov)
+16. move-all-zeroes-to-end-of-array(16th nov)
+17. Reverse an Array(17th nov)
+18. rotate-array-by-n-elements(18th nov)
+19. next-permutation(19th nov)
+20. majority-vote(20th nov)
+21. stock-buy-and-sell(21th nov)
+22. Stock Buy and Sell – Max one Transaction Allowed(22nd nov)
+23. Minimize the Heights(23rd nov)
+24. Kadane's Algorithm(24th nov)
+25. Maximum Product Subarray(25th nov)
+26. Max Circular Subarray Sum(26th nov)
+27. Smallest Positive Missing Number(27th nov)
+28. Implement Atoi(28th nov)
+29. Add Binary Strings(29th nov)
+30. Anagram(30th nov)  
 
 # ✨ Overview
 - This list chronicles daily problem-solving endeavors in November 2024, showcasing a mix of array, string, graph, and linked list challenges.
@@ -113,14 +111,13 @@ Day 30	     30th November	    Anagram
 
 # December 2024
 
-**Day**	     **Date**	          **Challenge Name**
-Day 1	     1st December	      Non-Repeating Character
-Day 2	     2nd December	      Search Pattern (KMP Algorithm)
-Day 3	     3rd December	      Min Chars to Add for Palindrome
-Day 4	     4th December	      Strings Rotations of Each Other
-Day 5	     5th December	      Sort 0s, 1s, and 2s
-Day 6	     6th December	      Find H-Index
-Day 7	     7th December	      Count Inversions
+1. Non Repeating Character(1st dec)
+2. Search Pattern (KMP-Algorithm)(2nd dec)
+3. Min Chars to Add for Palindrome (3rd dec)
+4. Strings Rotations of Each Other (4th dec)
+5. Sort 0s, 1s and 2s (5th dec)
+6. Find H-Index (6th dec)
+7. Count Inversions(7th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
