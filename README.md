@@ -1,8 +1,64 @@
-# This is my Greeksfor Greeks Repository
-Here I upload all my dsa problem which I solved in GreeksForGreeks.
-Stay updated and conected with me.
-# This is my  GreeksforGreeks Profile
-https://www.geeksforgeeks.org/user/nikitakarozpn/
+# 🌟 GreeksforGeeks Repository 💻✨
+
+**Welcome to my personal GreeksforGeeks Repository!**
+This is where I document solutions to DSA problems I’ve solved while practicing on GeeksforGeeks.
+This repository is a testament to my journey through GeeksforGeeks, solving one problem at a time, and honing my problem-solving skills.
+Explore this collection to see my progress, understand various problem-solving techniques, and learn along the way. Let’s grow together in mastering Data Structures and Algorithms! 🚀
+
+**🚀 "Learning never exhausts the mind." — Leonardo da Vinci**
+
+# About My Profile
+Check out my GreeksforGeeks profile:
+Nikita Karmakar on GeeksforGeeks "https://www.geeksforgeeks.org/user/nikitakarozpn/"
+
+# 🗂 Repository Highlights
+This repository includes solutions to problems I’ve tackled. Each file contains detailed implementations, ensuring clarity and easy understanding.
+
+# 🔹 Categories
+**Here are the problem categories and some of the challenges I've solved:**
+
+**Array Problems**
+- Subarray with Given Sum
+- Missing Number in Array
+- Kadane’s Algorithm
+- Minimum Number of Jumps
+- Leaders in an Array
+- Sort an Array of 0s, 1s, and 2s
+**Linked List Problems**
+- Remove Loop in Linked List
+- Intersection Point in Y-Shaped Linked Lists
+- Linked List Length: Even or Odd
+**Mathematical Challenges**
+- Count Possible Triangles
+- Find All Triplets with Zero Sum
+- Zero Sum Count
+**Graph Problems**
+- Detect Cycle in an Undirected Graph
+
+# 📚 What You'll Find Here
+**This is more than a collection of solved problems; it's a story of growth and persistence. Here's a quick overview of what's inside:**
+
+# 🗂 Problem Categories
+![image](https://github.com/user-attachments/assets/579977bc-0422-4956-9c73-9ab6602b5810)
+
+# 🗓 Daily Challenges
+I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a log of the problems I’ve worked on recently:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Here a list which problem I solved
 1. subarray-with-given-sum
