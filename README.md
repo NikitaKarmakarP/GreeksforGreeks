@@ -75,6 +75,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 # November 2024
 
 **Day**	       **Date**	        **Challenge Name**
+
 Day 1	       1st November	      Swap and Maximize
 Day 2	       2nd November	      Kth Distance
 Day 3	       3rd November	      Linked List Length Even or Odd
