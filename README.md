@@ -1,13 +1,14 @@
 # 🌟 GreeksforGeeks Repository 💻✨
 
-**Welcome to my personal GreeksforGeeks Repository!**
+**🎉 Welcome to my personal GreeksforGeeks Repository!**
+
 This is where I document solutions to DSA problems I’ve solved while practicing on GeeksforGeeks.
 This repository is a testament to my journey through GeeksforGeeks, solving one problem at a time, and honing my problem-solving skills.
 Explore this collection to see my progress, understand various problem-solving techniques, and learn along the way. Let’s grow together in mastering Data Structures and Algorithms! 🚀
 
 **🚀 "Learning never exhausts the mind." — Leonardo da Vinci**
 
-# About My Profile
+# 🌈 About My Profile
 Check out my GreeksforGeeks profile:
 Nikita Karmakar on GeeksforGeeks "https://www.geeksforgeeks.org/user/nikitakarozpn/"
 
