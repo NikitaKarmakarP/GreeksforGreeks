@@ -119,6 +119,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 6. Find H-Index (6th dec)
 7. Count Inversions(7th dec)
 8. Overlapping Intervals(8th dec)
+9. Insert Interval(9th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
