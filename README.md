@@ -14,16 +14,16 @@ Nikita Karmakar on GeeksforGeeks "https://www.geeksforgeeks.org/user/nikitakaroz
 
 # 🗂 Repository Highlights 🌟
 
-**- Well-Categorized Problems:**
+- **Well-Categorized Problems:**
 The problems are neatly grouped under categories like Array Problems, Linked List Problems, Mathematical Challenges, and Graph Problems.
 
-**- Daily Problem Log:**
+- **Daily Problem Log:**
 Logs for November and December 2024 showcase a disciplined effort to solve a problem daily, with a detailed list of the problems solved.
 
-**- Clean and Optimized Code:**
+- **Clean and Optimized Code:**
 Each solution is provided with clean code and detailed comments, ensuring clarity for learners.
 
-**- Personal Growth and Learning:**
+- **Personal Growth and Learning:**
 The repository is not just a collection of solutions but a story of persistence, learning, and improvement in the field of competitive programming.
 
 # 📜 List of Solved Problems
