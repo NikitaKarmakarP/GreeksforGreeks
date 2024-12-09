@@ -12,8 +12,19 @@ Explore this collection to see my progress, understand various problem-solving t
 Check out my GreeksforGeeks profile:
 Nikita Karmakar on GeeksforGeeks "https://www.geeksforgeeks.org/user/nikitakarozpn/"
 
-# 🗂 Repository Highlights
-This repository includes solutions to problems I’ve tackled. Each file contains detailed implementations, ensuring clarity and easy understanding.
+# 🗂 Repository Highlights 🌟
+
+**Well-Categorized Problems:**
+The problems are neatly grouped under categories like Array Problems, Linked List Problems, Mathematical Challenges, and Graph Problems.
+
+**Daily Problem Log:**
+Logs for November and December 2024 showcase a disciplined effort to solve a problem daily, with a detailed list of the problems solved.
+
+**Clean and Optimized Code:**
+Each solution is provided with clean code and detailed comments, ensuring clarity for learners.
+
+**Personal Growth and Learning:**
+The repository is not just a collection of solutions but a story of persistence, learning, and improvement in the field of competitive programming.
 
 # 📜 List of Solved Problems
 Here’s a compilation of the challenges I’ve tackled during my coding journey on GeeksforGeeks. Each problem represents a step forward in mastering Data Structures and Algorithms!
