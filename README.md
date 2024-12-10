@@ -115,7 +115,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 27. Smallest Positive Missing Number(27th nov)
 28. Implement Atoi(28th nov)
 29. Add Binary Strings(29th nov)
-30. Anagram(30th nov)  
+30. Anagram(30th nov)
 
 # ✨ Overview
 - This list chronicles daily problem-solving endeavors in November 2024, showcasing a mix of array, string, graph, and linked list challenges.
@@ -132,6 +132,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 7. Count Inversions(7th dec)
 8. Overlapping Intervals(8th dec)
 9. Insert Interval(9th dec)
+10. Non-overlapping Intervals(10th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
