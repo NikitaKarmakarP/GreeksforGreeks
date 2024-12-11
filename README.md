@@ -134,6 +134,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 9. Insert Interval(9th dec)
 10. Non-overlapping Intervals(10th dec)
 11. Merge Without Extra Space(11th dec)
+12. Number of occurrence(12th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
