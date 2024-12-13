@@ -135,6 +135,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 10. Non-overlapping Intervals(10th dec)
 11. Merge Without Extra Space(11th dec)
 12. Number of occurrence(12th dec)
+13. Sorted and Rotated Minimum(13thdec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
