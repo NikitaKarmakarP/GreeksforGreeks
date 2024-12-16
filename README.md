@@ -138,6 +138,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 13. Sorted and Rotated Minimum(13thdec)
 14. Search in Rotated Sorted Array(14th dec)
 15. Peak element(15th dec)
+16. K-th element of two Arrays(16th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
