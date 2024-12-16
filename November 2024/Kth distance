@@ -1,0 +1,27 @@
+#include <unordered_set>
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    bool checkDuplicatesWithinK(vector<int>& arr, int k) {
+        unordered_set<int> elements;
+
+        for (int i = 0; i < arr.size(); ++i) {
+            // Check if the current element is already in the set
+            if (elements.find(arr[i]) != elements.end()) {
+                return true;
+            }
+
+            // Add the current element to the set
+            elements.insert(arr[i]);
+
+            // Maintain the set size within k by removing the element that is k distance away
+            if (elements.size() > k) {
+                elements.erase(arr[i - k]);
+            }
+        }
+
+        return false;
+    }
+};
