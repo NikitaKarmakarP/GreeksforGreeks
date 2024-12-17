@@ -1,7 +1,4 @@
-
-
 // User function Template for Java
-
 
 class Solution {
     String minSum(int[] arr) {
