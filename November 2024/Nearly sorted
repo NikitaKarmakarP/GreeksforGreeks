@@ -1,0 +1,32 @@
+#include <vector>
+#include <queue>
+
+class Solution {
+public:
+    std::vector<int> nearlySorted(std::vector<int>& arr, int k) {
+        std::priority_queue<int, std::vector<int>, std::greater<int>> minHeap;
+        int n = arr.size();
+        
+        // Push the first k+1 elements to the minHeap
+        for (int i = 0; i <= k && i < n; i++) {
+            minHeap.push(arr[i]);
+        }
+
+        int index = 0;
+        
+        // Process the remaining elements in the array
+        for (int i = k + 1; i < n; i++) {
+            arr[index++] = minHeap.top();
+            minHeap.pop();
+            minHeap.push(arr[i]);
+        }
+
+        // Extract the remaining elements from the minHeap
+        while (!minHeap.empty()) {
+            arr[index++] = minHeap.top();
+            minHeap.pop();
+        }
+        
+        return arr;
+    }
+};
