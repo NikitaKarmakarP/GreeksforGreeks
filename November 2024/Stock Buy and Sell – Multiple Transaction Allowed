@@ -1,0 +1,19 @@
+
+// User function Template for Java
+class Solution {
+    public int maximumProfit(int prices[]) {
+        // code here
+        
+        int maxProfit = 0; // Initialize the profit as 0
+        
+        for (int i = 1; i < prices.length; i++) {
+            // If the price on the current day is greater than the previous day
+            if (prices[i] > prices[i - 1]) {
+                // Add the difference to maxProfit
+                maxProfit += prices[i] - prices[i - 1];
+            }
+        }
+        
+        return maxProfit;
+    }
+}
