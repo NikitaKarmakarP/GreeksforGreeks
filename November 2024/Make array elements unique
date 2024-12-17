@@ -1,0 +1,25 @@
+// User function Template for C++
+
+class Solution {
+  public:
+    int minIncrements(vector<int> arr) {
+        // Code here
+        
+         std::sort(arr.begin(), arr.end());
+        
+        int increments = 0;
+        
+        // Traverse the sorted array to ensure all elements are unique
+        for (int i = 1; i < arr.size(); ++i) {
+            // If the current element is not greater than the previous one,
+            // we need to increment it to make it unique.
+            if (arr[i] <= arr[i - 1]) {
+                int required_increment = arr[i - 1] + 1 - arr[i];
+                increments += required_increment;
+                arr[i] = arr[i - 1] + 1; // Update the current element to be unique
+            }
+        }
+        
+        return increments;
+    }
+};
