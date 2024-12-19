@@ -1,0 +1,27 @@
+class Solution {
+    public int kthMissing(int[] nums, int k) {
+        // code here
+        Set<Integer> set = new HashSet<>();
+        int max = 0;
+        for(int num : nums){
+            set.add(num);
+            max = Math.max(max,num);
+        }
+        
+        for(int i=1; i<=max; i++){
+            if(!set.contains(i)){
+                k--;
+                if(k==0){
+                    return i;
+                }
+            }
+        }
+        
+        while(k!=0){
+            max++;
+            k--;
+        }
+        
+        return max;
+    }
+}
