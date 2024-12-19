@@ -142,6 +142,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 17. Aggressive Cows(17th dec)
 18. Allocate Minimum Pages(18th dec)
 19. Kth Missing Positive Number in a Sorted Array(19th dec)
+20. Spirally traversing a matrix(20th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
