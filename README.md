@@ -141,6 +141,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 16. K-th element of two Arrays(16th dec)
 17. Aggressive Cows(17th dec)
 18. Allocate Minimum Pages(18th dec)
+19. Kth Missing Positive Number in a Sorted Array(19th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
