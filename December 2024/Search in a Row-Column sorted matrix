@@ -1,0 +1,24 @@
+class Solution {
+    public static boolean matSearch(int mat[][], int x) {
+        // your code here
+        int n=mat.length-1;
+        int m=mat[0].length-1;
+        int i=0, j=m;
+        while(i<=n && j>=0)
+        {
+            if(mat[i][j]==x)
+            {
+                return true;
+            }
+            else if(x>mat[i][j])
+            {
+                i++;
+            }
+            else
+            {
+                j--;
+            }
+        }
+        return false;
+    }
+}
