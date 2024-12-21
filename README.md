@@ -143,6 +143,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 18. Allocate Minimum Pages(18th dec)
 19. Kth Missing Positive Number in a Sorted Array(19th dec)
 20. Spirally traversing a matrix(20th dec)
+21. Rotate by 90 degree(21th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
