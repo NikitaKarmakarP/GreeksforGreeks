@@ -145,6 +145,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 20. Spirally traversing a matrix(20th dec)
 21. Rotate by 90 degree(21th dec)
 22. Search in a Row-Column sorted matrix(22nd dec)
+23. Search in a row-wise sorted matrix(23rd dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
