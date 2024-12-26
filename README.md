@@ -148,6 +148,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 23. Search in a row-wise sorted matrix(23rd dec)
 24. Search in a sorted Matrix(24th dec)
 25. Set Matrix Zeroes(25th dec)
+26. Two Sum(26th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
