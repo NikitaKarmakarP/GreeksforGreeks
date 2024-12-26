@@ -1,0 +1,24 @@
+class Solution {
+
+     int countPairs(int arr[], int target) {
+        HashMap<Integer, Integer>map = new HashMap<>();
+        for(Integer n: arr){
+            map.put(n, map.getOrDefault(n, 0) + 1);
+        }
+        
+        int count = 0;
+        for(Integer n: arr){
+            if((target-n)!=n&&map.get(n)>0&&map.containsKey(target - n)&&map.get(target - n)>0){
+                
+                count +=(map.get(n)*map.get(target - n));
+                map.put(n, 0);
+                map.put(target - n, 0);
+            }else if(target - n == n && map.get(n)>1){
+                count+=(map.get(n)*(map.get(n) - 1)/2);
+                map.put(n, 0);
+            }
+        }
+        return count;
+    }
+    
+}
