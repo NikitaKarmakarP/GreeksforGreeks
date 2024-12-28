@@ -150,6 +150,7 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 25. Set Matrix Zeroes(25th dec)
 26. Two Sum(26th dec)
 27. Count pairs with given sum(27th dec)
+28. Find All Triplets with Zero Sum(28th dec)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
