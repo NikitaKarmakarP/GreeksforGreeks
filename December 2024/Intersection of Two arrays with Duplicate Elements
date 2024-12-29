@@ -1,0 +1,17 @@
+class Solution {
+  public:
+    vector<int> intersectionWithDuplicates(vector<int>& a, vector<int>& b) {
+        map<int,int>mp;
+        for(auto val:a){
+            mp[val]++;
+        }
+        vector<int>ans;
+        for(auto val:b){
+            if(mp.find(val)!=mp.end()){
+                ans.push_back(val);
+                mp.erase(val);
+            }
+        }
+        return ans;
+    }
+};
