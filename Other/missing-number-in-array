@@ -1,0 +1,17 @@
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    int findMissingNumber(vector<int>& arr) {
+        int n = arr.size() + 1;  // The range is from 1 to n
+        int expected_sum = n * (n + 1) / 2;
+        
+        int actual_sum = 0;
+        for (int num : arr) {
+            actual_sum += num;
+        }
+
+        return expected_sum - actual_sum;
+    }
+};
