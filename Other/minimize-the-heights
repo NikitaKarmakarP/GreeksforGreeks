@@ -1,0 +1,45 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+
+int getMinDiff(std::vector<int>& arr, int k) {
+    int n = arr.size();
+    
+    // Sort the array to get towers in increasing order
+    std::sort(arr.begin(), arr.end());
+    
+    // Initial difference between the tallest and shortest tower
+    int initial_diff = arr[n - 1] - arr[0];
+    
+    int min_diff = initial_diff;
+    int smallest = arr[0] + k;  // Minimum possible height after modification
+    int largest = arr[n - 1] - k; // Maximum possible height after modification
+    
+    // Traverse from the first to the second last element
+    for (int i = 1; i < n; i++) {
+        // Ensure we do not go below zero height
+        if (arr[i] - k < 0) continue;
+
+        // Calculate the maximum and minimum heights possible
+        int new_max = std::max(arr[i - 1] + k, largest);
+        int new_min = std::min(smallest, arr[i] - k);
+        
+        // Update the minimum difference
+        min_diff = std::min(min_diff, new_max - new_min);
+    }
+    
+    return min_diff;
+}
+
+int main() {
+    std::vector<int> arr1 = {1, 5, 8, 10};
+    int k1 = 2;
+    std::cout << "Minimum difference: " << getMinDiff(arr1, k1) << std::endl;  // Output: 5
+
+    std::vector<int> arr2 = {3, 9, 12, 16, 20};
+    int k2 = 3;
+    std::cout << "Minimum difference: " << getMinDiff(arr2, k2) << std::endl;  // Output: 11
+
+    return 0;
+}
