@@ -1,0 +1,35 @@
+import java.util.HashSet;
+
+class Solution {
+
+    // Function to return length of longest subsequence of consecutive integers.
+    public int longestConsecutive(int[] arr) {
+        // Convert array into a set for O(1) lookups
+        HashSet<Integer> numSet = new HashSet<>();
+        for (int num : arr) {
+            numSet.add(num);
+        }
+
+        int longestStreak = 0;
+
+        // Iterate through the array
+        for (int num : arr) {
+            // Check if it is the start of a sequence
+            if (!numSet.contains(num - 1)) {
+                int currentNum = num;
+                int currentStreak = 1;
+
+                // Count consecutive numbers
+                while (numSet.contains(currentNum + 1)) {
+                    currentNum++;
+                    currentStreak++;
+                }
+
+                // Update the longest streak found
+                longestStreak = Math.max(longestStreak, currentStreak);
+            }
+        }
+
+        return longestStreak;
+    }
+}
