@@ -153,6 +153,9 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 28. Find All Triplets with Zero Sum(28th dec)
 29. Intersection of Two arrays with Duplicate Elements(29th dec)
 30. Union of Arrays with Duplicates(30th dec)
+31. longest-consecutive-subsequence(31st dec)
+
+# January 2025
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
