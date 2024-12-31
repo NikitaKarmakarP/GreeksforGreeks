@@ -1,0 +1,8 @@
+class Solution:
+    def anagrams(self, arr):
+        from collections import defaultdict
+        ret=defaultdict(list)
+        for ve in arr:
+            tmp=''.join(sorted(ve))
+            ret[tmp].append(ve)
+        return [ret[x] for x in ret]
