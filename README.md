@@ -157,6 +157,8 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 
 # January 2025
 
+1. Print Anagrams Together
+
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
 - Stay consistent, and keep up the great work! Let me know if you'd like to expand or beautify further!
