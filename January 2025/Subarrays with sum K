@@ -1,0 +1,28 @@
+import java.util.HashMap;
+
+class Solution {
+    public int countSubarrays(int arr[], int k) {
+        // HashMap to store the frequency of cumulative sums
+        HashMap<Integer, Integer> sumCount = new HashMap<>();
+        int currentSum = 0; // This will store the cumulative sum
+        int count = 0; // This will store the number of subarrays with sum k
+        
+        // Initialize the hashmap with 0 sum having a count of 1
+        sumCount.put(0, 1);
+        
+        // Iterate through the array
+        for (int num : arr) {
+            currentSum += num; // Update the cumulative sum
+            
+            // Check if (currentSum - k) exists in the hashmap
+            if (sumCount.containsKey(currentSum - k)) {
+                count += sumCount.get(currentSum - k); // Add the frequency of that sum to count
+            }
+            
+            // Update the HashMap with the current cumulative sum
+            sumCount.put(currentSum, sumCount.getOrDefault(currentSum, 0) + 1);
+        }
+        
+        return count; // Return the total count of subarrays with sum k
+    }
+}
