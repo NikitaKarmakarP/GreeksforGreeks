@@ -1,0 +1,22 @@
+class Solution:
+    def subarrayXor(self, arr, k):
+        # code here
+        
+        s=0
+        cnt=0
+        mp={}
+        
+        for i in arr:
+            s^=i
+            
+            if s==k:
+                cnt+=1
+                
+            if s^k in mp:
+                cnt+=mp[s^k]
+            
+            if s in mp:
+                mp[s]+=1
+            else:
+                mp[s]=1
+        return cnt
