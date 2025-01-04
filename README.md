@@ -159,7 +159,8 @@ I strive to solve one DSA problem daily to stay consistent and sharp. Here’s a
 
 1. Print Anagrams Together(1st jan)
 2. Subarrays with sum K(2nd january)
-3. Number of Ways to Split Array(3rd january)
+3. Count SubArrays with given XOR(3rd january)
+4. Count all triplets with given sum in sorted array(4th january)
 
 # ✨ Overview
 - This list captures daily progress in December 2024, tackling essential string and array challenges.
