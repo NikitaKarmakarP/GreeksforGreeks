@@ -1,0 +1,19 @@
+def countDistinct(self, arr, k):
+        # Code here
+        ans=[]
+        
+        mp={}
+        j=0
+        
+        for i in arr:
+            j+=1
+            if i in mp:
+                mp[i]+=1
+            else:
+                mp[i]=1
+            if j>=k:
+                ans.append(len(mp.keys()))
+                mp[arr[j-k]]-=1
+                if mp[arr[j-k]]==0:
+                    del mp[arr[j-k]]
+        return ans
