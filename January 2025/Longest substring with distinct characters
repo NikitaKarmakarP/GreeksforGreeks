@@ -1,0 +1,17 @@
+class Solution:
+    def longestUniqueSubstr(self, s):
+        # code here
+        i,j=0,0
+        res=0
+        d={}
+        while j<len(s):
+            d[s[j]]=d.get(s[j],0)+1
+            while i<j and d[s[j]]>1:
+                d[s[i]]-=1
+                if not d[s[i]]:
+                    del d[s[i]]
+                i+=1
+            res=max(res,j-i+1)
+            j+=1
+        return res
+
