@@ -1,0 +1,25 @@
+class Solution {
+  public:
+    // Function to find equilibrium point in the array.
+    int findEquilibrium(vector<int> &arr) {
+        
+        int ans = 0;
+        int n = arr.size();
+        vector<int>pref(n);
+        pref[0] = arr[0];
+        for(int i=1;i<n;i++){
+            pref[i] = pref[i-1]+arr[i];
+        }
+        for(int i=1;i<n-1;i++){
+            if(pref[i-1] == pref[n-1]-pref[i]){
+                ans = i;
+                break;
+            }
+        }
+        if(ans == 0){
+            return -1;
+        }
+        
+        return ans;
+    }
+};
