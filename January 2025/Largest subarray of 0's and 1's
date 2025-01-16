@@ -1,0 +1,25 @@
+ int maxLen(vector<int> &arr) {
+        int sum = 0; 
+        int maxlen = 0; 
+        unordered_map<int, int> map; 
+    for (int i = 0; i < arr.size(); i++) {
+        
+        if(arr[i]==0){
+            sum--; 
+        }else{
+            sum++; 
+        }
+        if (sum == 0) {
+            maxlen = i + 1; 
+        }
+        if (map.find(sum) != map.end()) {
+            maxlen = max(maxlen, i - map[sum]); 
+        }
+        if (map.find(sum) == map.end()) {
+            map[sum] = i; 
+        }
+    }
+    
+    return maxlen; 
+    }
+
