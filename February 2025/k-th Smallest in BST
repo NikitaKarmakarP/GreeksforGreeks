@@ -1,0 +1,20 @@
+class Solution:
+    def recur(self, root):
+        if root.left:
+            self.recur(root.left)
+    
+        self.node_count += 1
+        if self.k == self.node_count:
+            self.ans = root.data
+        
+        if root.right:
+            self.recur(root.right)
+
+    # Return the kth smallest element in the given BST 
+    def kthSmallest(self, root, k): 
+        #code here.
+        self.ans = -1
+        self.k = k
+        self.node_count = 0
+        self.recur(root)
+        return self.ans
