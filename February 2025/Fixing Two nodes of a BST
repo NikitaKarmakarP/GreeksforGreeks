@@ -1,0 +1,31 @@
+class Solution {
+    private : 
+    void make_BST(Node *root,vector<int> &v,int &i){
+        if(root == NULL){
+            return;
+        }
+        
+        make_BST(root->left,v,i);
+        root->data = v[i++];
+        make_BST(root->right,v,i);
+    }
+    void LNR(Node *root,vector<int> &v){
+        if(root == NULL){
+            return;
+        }
+        
+        LNR(root->left,v);
+        v.push_back(root->data);
+        LNR(root->right,v);
+    }
+  public:
+    void correctBST(Node* root) {
+        // add code here.
+        vector<int> v;
+        LNR(root,v);
+        
+        sort(v.begin(),v.end());
+        int i = 0;
+        make_BST(root,v,i);
+    }
+};
