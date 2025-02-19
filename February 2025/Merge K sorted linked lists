@@ -1,0 +1,25 @@
+class Solution {
+  public:
+    Node* mergeKLists(vector<Node*>& arr) {
+        vector <int> V;
+        for(Node* e: arr){
+            while(e != NULL){
+                V.push_back(e -> data);
+                e = e -> next;
+            }
+        }
+        
+        sort(V.begin(), V.end());
+        
+        int n = V.size();
+        
+        Node* head = new Node(V[0]);
+        Node* curr = head;
+        for(int i = 1; i < n; i++){
+            curr -> next = new Node(V[i]);
+            curr = curr -> next;
+        }
+        
+        return head;
+    }
+};
