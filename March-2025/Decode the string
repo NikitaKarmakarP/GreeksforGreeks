@@ -1,0 +1,60 @@
+class Solution {
+  public:
+    string decodedString(string &s) {
+        // code here
+        int n = s.size();
+        
+        stack<string> st;
+        int num = 0;
+        
+        int i = n-1;
+        
+        while(i>=0){
+            if(s[i]>='0' && s[i]<='9'){
+                string t;
+                while(i>=0 && s[i]>='0' && s[i]<='9'){
+                    t.push_back(s[i]);
+                    i--;
+                }
+                reverse(t.begin(),t.end());
+                
+                num = stoi(t);
+                string p="";
+                
+                st.pop();
+                while(st.top()!="]"){
+                    p+=st.top();
+                    st.pop();
+                }
+                st.pop();
+                
+                string pp="";
+                for(int i=0;i<num;i++){
+                    pp = pp + p;
+                }
+                
+                st.push(pp);
+                   
+            }
+            else{
+                string t;
+                t.push_back(s[i]);
+                
+                st.push(t);
+                i--;
+                
+            }
+            
+            
+            
+        }
+        
+        string ans = "";
+        while(!st.empty()){
+            ans+=st.top();
+            st.pop();
+        }
+        return ans;
+        
+    }
+};
