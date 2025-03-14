@@ -1,0 +1,26 @@
+class Solution {
+  public:
+    // Function to return max value that can be put in knapsack of capacity.
+    int fun(int i, int W, vector<int> &val, vector<int> &wt, vector<vector<int>> &dp){
+        if(i<0 || W<0)    
+            return 0;
+        if(dp[i][W] != -1)
+            return dp[i][W];
+        
+        int t = 0;
+        int nt = fun(i-1, W, val, wt, dp);
+        
+        if(wt[i] <= W)
+            t = val[i] + fun(i-1, W-wt[i], val, wt, dp);
+        
+        return dp[i][W] = max(t, nt);
+    }
+    
+    int knapsack(int W, vector<int> &val, vector<int> &wt) {
+        // code here
+        int n = val.size();
+        vector<vector<int>> dp(n+1, vector<int>(W+1, -1));
+        
+        return fun(n-1, W, val, wt, dp);
+    }
+};
