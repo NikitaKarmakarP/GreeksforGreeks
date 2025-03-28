@@ -1,0 +1,39 @@
+class Solution {
+public:
+    vector<int> jobSequencing(vector<int>& deadline, vector<int>& profit) {
+        int n = deadline.size();
+        vector<pair<int, int>> jobs; 
+        
+        // Storing jobs with their profits and deadlines
+        for (int i = 0; i < n; i++) {
+            jobs.push_back({profit[i], deadline[i]});
+        }
+
+        // Sorting jobs in descending order of profit
+        sort(jobs.rbegin(), jobs.rend());
+
+        // Finding maximum deadline
+        int maxDeadline = *max_element(deadline.begin(), deadline.end());
+        vector<int> timeSlots(maxDeadline + 1, -1);  // Track slots for jobs
+
+        int jobCount = 0, totalProfit = 0;
+
+        // Assign jobs to available slots
+        for (auto& job : jobs) {
+            int profit = job.first;
+            int dead = job.second;
+
+            // Find a free slot from deadline to 1
+            for (int slot = dead; slot > 0; slot--) {
+                if (timeSlots[slot] == -1) { // If slot is free
+                    timeSlots[slot] = profit;
+                    jobCount++;
+                    totalProfit += profit;
+                    break;
+                }
+            }
+        }
+
+        return {jobCount, totalProfit};
+    }
+};
