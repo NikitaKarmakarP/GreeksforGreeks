@@ -1,0 +1,54 @@
+import java.util.*;
+
+class GraphCycleDetection {
+    static class DSU {
+        int[] parent, rank;
+
+        DSU(int n) {
+            parent = new int[n];
+            rank = new int[n];
+            for (int i = 0; i < n; i++) parent[i] = i;
+        }
+
+        int find(int x) {
+            if (parent[x] != x)
+                parent[x] = find(parent[x]); // Path compression
+            return parent[x];
+        }
+
+        boolean union(int x, int y) {
+            int rootX = find(x);
+            int rootY = find(y);
+            if (rootX == rootY) return false; // Cycle detected
+
+            if (rank[rootX] > rank[rootY]) {
+                parent[rootY] = rootX;
+            } else if (rank[rootX] < rank[rootY]) {
+                parent[rootX] = rootY;
+            } else {
+                parent[rootY] = rootX;
+                rank[rootX]++;
+            }
+            return true;
+        }
+    }
+
+    public static boolean hasCycle(int V, int[][] edges) {
+        DSU dsu = new DSU(V);
+        for (int[] edge : edges) {
+            if (!dsu.union(edge[0], edge[1])) {
+                return true; // Cycle detected
+            }
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        int V = 4;
+        int[][] edges = {{0, 1}, {0, 2}, {1, 2}, {2, 3}};
+        System.out.println(hasCycle(V, edges)); // Output: true
+
+        int[][] edges2 = {{0, 1}, {1, 2}, {2, 3}};
+        System.out.println(hasCycle(V, edges2)); // Output: false
+    }
+}
